@@ -282,6 +282,15 @@
 	gun_type = /obj/item/weapon/gun/rifle/lmg
 	ammo_band_color = AMMO_BAND_COLOR_HEAP
 
+
+/obj/item/ammo_magazine/rifle/kramer
+	name = "\improper Kramer assault rifle magazine (10x26mm)"
+	desc = "A semi-rectangular box of rounds for the M41AE2 Heavy Pulse Rifle."
+	icon_state = "kramer"
+	max_rounds = 40
+	default_ammo = /datum/ammo/bullet/rifle/kramer
+	gun_type = /obj/item/weapon/gun/rifle/kramer
+
 //-------------------------------------------------------
 //UPP TYPE 71 RIFLE
 

@@ -1267,6 +1267,55 @@
 	recoil_unwielded = RECOIL_AMOUNT_TIER_1
 
 
+//-------------------------------------------------------
+//KRAMER ASSAULT RIFLE
+
+/obj/item/weapon/gun/rifle/kramer
+	name = "\improper Kramer assault rifle"
+	desc = "A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands. Like it's smaller brothers, the M41A MK2 and M4RA, the M41AE2 is chambered in 10mm."
+	icon = 'icons/obj/items/weapons/guns/guns_by_faction/uscm.dmi'
+	icon_state = "kramer"
+	item_state = "m41ae2"
+
+	reload_sound = 'sound/weapons/handling/hpr_reload.ogg'
+	unload_sound = 'sound/weapons/handling/hpr_unload.ogg'
+	fire_sound = 'sound/weapons/smg_heavy.ogg'
+	aim_slowdown = SLOWDOWN_ADS_LMG
+	current_mag = /obj/item/ammo_magazine/rifle/kramer
+	starting_attachment_types = list(/obj/item/attachable/stock/kramer, /obj/item/attachable/attached_gun/shotgun/kramer, /obj/item/attachable/bipod/kramer)
+	attachable_allowed = list(
+		/obj/item/attachable/suppressor,
+		/obj/item/attachable/reddot,
+		/obj/item/attachable/reflex,
+		/obj/item/attachable/flashlight,
+		/obj/item/attachable/bipod,
+		/obj/item/attachable/heavy_barrel,
+		/obj/item/attachable/compensator,
+		/obj/item/attachable/magnetic_harness,
+	)
+
+	flags_gun_features = GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER|GUN_WIELDED_FIRING_ONLY|GUN_SUPPORT_PLATFORM
+	gun_category = GUN_CATEGORY_HEAVY
+	start_automatic = TRUE
+
+/obj/item/weapon/gun/rifle/kramer/set_gun_attachment_offsets()
+	attachable_offset = list("muzzle_x" = 31, "muzzle_y" = 21,"rail_x" = 8, "rail_y" = 23, "under_x" = 23, "under_y" = 17, "stock_x" = 13, "stock_y" = 18)
+
+
+/obj/item/weapon/gun/rifle/kramer/set_gun_config_values()
+	..()
+	set_fire_delay(FIRE_DELAY_TIER_8)
+	set_burst_amount(BURST_AMOUNT_TIER_2)
+	set_burst_delay(FIRE_DELAY_TIER_7)
+	fa_scatter_peak = FULL_AUTO_SCATTER_PEAK_TIER_4
+	fa_max_scatter = SCATTER_AMOUNT_TIER_2
+	accuracy_mult = BASE_ACCURACY_MULT - HIT_ACCURACY_MULT_TIER_2
+	accuracy_mult_unwielded = BASE_ACCURACY_MULT - HIT_ACCURACY_MULT_TIER_10
+	scatter = SCATTER_AMOUNT_TIER_4
+	burst_scatter_mult = SCATTER_AMOUNT_TIER_3
+	scatter_unwielded = SCATTER_AMOUNT_TIER_2
+	damage_mult = BASE_BULLET_DAMAGE_MULT + BULLET_DAMAGE_MULT_TIER_2
+	recoil_unwielded = RECOIL_AMOUNT_TIER_1
 
 //-------------------------------------------------------
 

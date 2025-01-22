@@ -1779,6 +1779,20 @@ Defined in conflicts.dm of the #defines folder.
 /obj/item/attachable/stock/double/New()
 	..()
 
+/obj/item/attachable/stock/kramer
+	name = "\improper kramer assault rifle stock"
+	desc = "A chunky piece of wood coated in varnish and age."
+	slot = "stock"
+	icon_state = "kramer_stock"
+	wield_delay_mod = WIELD_DELAY_NONE//part of the gun's base stats
+	flags_attach_features = NO_FLAGS
+	pixel_shift_x = 32
+	pixel_shift_y = 15
+	hud_offset_mod = 2
+
+/obj/item/attachable/stock/kramer/New()
+	..()
+
 /obj/item/attachable/stock/mou53
 	name = "\improper MOU53 tactical stock"
 	desc = "A metal stock fitted specifically for the MOU53 break action shotgun."
@@ -3113,6 +3127,13 @@ Defined in conflicts.dm of the #defines folder.
 			return
 	to_chat(user, SPAN_WARNING("[src] only accepts shotgun buckshot."))
 
+/obj/item/attachable/attached_gun/shotgun/kramer
+	name = "\improper Kramer underbarrel shotgun"
+	icon_state = "masterkey"
+	slot = "special"
+	hidden = TRUE
+	flags_attach_features = ATTACH_ACTIVATION|ATTACH_PROJECTILE|ATTACH_RELOADABLE|ATTACH_WEAPON
+
 /obj/item/attachable/attached_gun/extinguisher
 	name = "HME-12 underbarrel extinguisher"
 	icon_state = "extinguisher"
@@ -3548,6 +3569,12 @@ Defined in conflicts.dm of the #defines folder.
 	icon_state = "bipod_m60"
 	attach_icon = "vulture_bipod"
 	heavy_bipod = TRUE
+
+/obj/item/attachable/bipod/kramer
+	name = "kramer bipod"
+	icon_state = "kramer_bipod"
+	attach_icon = "kramer_bipod"
+	flags_attach_features = ATTACH_ACTIVATION
 
 /obj/item/attachable/bipod/vulture/Initialize(mapload, ...)
 	. = ..()
