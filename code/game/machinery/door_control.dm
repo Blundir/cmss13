@@ -153,6 +153,9 @@
 	else
 		icon_state = initial(icon_state) + "0"
 
+/obj/structure/machinery/door_control/vertical
+	icon_state = "doorctrlvert"
+
 // Controls elevator railings
 /obj/structure/machinery/door_control/railings
 	name = "railing controls"
