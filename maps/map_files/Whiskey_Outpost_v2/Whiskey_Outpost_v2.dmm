@@ -4665,7 +4665,7 @@
 	pixel_y = -2;
 	req_one_access_txt = "2;21"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "WOlineshutters1";
 	name = "Line 1 Shutters";
 	pixel_x = 5;
@@ -9532,7 +9532,7 @@
 	pixel_y = -2;
 	req_one_access_txt = "2;21"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "WOlineshutters2";
 	name = "Line 2 Shutters";
 	pixel_x = 5;

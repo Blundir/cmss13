@@ -2339,13 +2339,12 @@
 	pixel_x = 4;
 	pixel_y = -3
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "W_Containment Cell 5";
 	name = "Containment Lockdown";
 	pixel_x = -8;
 	pixel_y = -3;
-	req_one_access_txt = "19;28";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "19;28"
 	},
 /turf/open/floor/almayer/sterile_green,
 /area/almayer/medical/containment)
@@ -2444,11 +2443,10 @@
 /area/almayer/living/pilotbunks)
 "apz" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "northcheckpoint";
 	name = "North Checkpoint Shutters";
-	req_one_access_txt = "3;12;19";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "3;12;19"
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
@@ -4178,11 +4176,10 @@
 /area/almayer/stair_clone/lower/port_fore)
 "azJ" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Hangar Lockdown";
 	name = "Hangar Lockdown";
-	req_one_access_txt = "3;19;22";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "3;19;22"
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/offices/flight)
@@ -4342,13 +4339,12 @@
 /obj/structure/machinery/computer/secure_data{
 	dir = 8
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "cic_exterior";
 	name = "CIC Door Control";
 	normaldoorcontrol = 1;
 	pixel_y = -14;
-	req_one_access_txt = "19";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "19"
 	},
 /obj/structure/surface/table/reinforced/black,
 /turf/open/floor/almayer,
@@ -8498,11 +8494,10 @@
 	icon_state = "W"
 	},
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "north_central_checkpoint";
 	name = "North Checkpoint Shutters";
-	req_one_access_txt = "3;12;19";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "3;12;19"
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
@@ -9836,11 +9831,10 @@
 	icon_state = "W"
 	},
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "south_central_checkpoint";
 	name = "South Checkpoint Shutters";
-	req_one_access_txt = "3;12;19";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "3;12;19"
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
@@ -11095,11 +11089,10 @@
 /area/almayer/hallways/hangar)
 "bBQ" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "southcheckpoint";
 	name = "South Checkpoint Shutters";
-	req_one_access_txt = "3;12;19";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "3;12;19"
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/briefing)
@@ -12042,12 +12035,11 @@
 /obj/item/explosive/grenade/high_explosive/training,
 /obj/item/explosive/grenade/high_explosive/training,
 /obj/item/explosive/grenade/high_explosive/training,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Firing_Range_2";
 	name = "range shutters";
 	pixel_x = 9;
-	pixel_y = 10;
-	icon_state = "doorctrlvert"
+	pixel_y = 10
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/cryo_cells)
@@ -12847,20 +12839,18 @@
 /turf/open/floor/almayer/test_floor4,
 /area/almayer/living/briefing)
 "bOK" = (
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "ROlobby1";
 	name = "RO Line 1 Shutters";
 	pixel_x = 5;
 	pixel_y = -2;
-	req_one_access_txt = "1;21";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "1;21"
 	},
-/obj/structure/machinery/line_nexter_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "line1";
 	pixel_x = -4;
 	pixel_y = -2;
-	req_one_access_txt = "1;21";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "1;21"
 	},
 /obj/structure/surface/table/almayer,
 /turf/open/floor/almayer/plate,
@@ -22935,35 +22925,31 @@
 /area/almayer/medical/lower_medical_medbay)
 "frt" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "courtyard_cells";
 	name = "\improper Courtyard Lockdown Shutters";
 	pixel_x = 6;
-	req_access_txt = "3";
-	icon_state = "doorctrlvert"
+	req_access_txt = "3"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Brig Lockdown Shutters";
 	name = "Brig Lockdown Shutters";
 	pixel_x = -6;
-	req_access_txt = "3";
-	icon_state = "doorctrlvert"
+	req_access_txt = "3"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "courtyard window";
 	name = "Courtyard Window Shutters";
 	pixel_x = -6;
 	pixel_y = 9;
-	req_access_txt = "3";
-	icon_state = "doorctrlvert"
+	req_access_txt = "3"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Cell Privacy Shutters";
 	name = "Cell Privacy Shutters";
 	pixel_x = 6;
 	pixel_y = 9;
-	req_access_txt = "3";
-	icon_state = "doorctrlvert"
+	req_access_txt = "3"
 	},
 /obj/structure/machinery/computer/working_joe{
 	pixel_y = 16
@@ -23272,14 +23258,13 @@
 /obj/item/tool/pen,
 /obj/item/folder/black,
 /obj/item/storage/fancy/cigarettes/kpack,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "CE Office Shutters";
 	name = "CE Office Shutters";
 	pixel_x = -6;
 	pixel_y = 18;
 	req_access_txt = list();
-	req_one_access_txt = "1;6";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "1;6"
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/engineering/ce_room)
@@ -26833,12 +26818,11 @@
 /obj/item/explosive/grenade/high_explosive/training,
 /obj/item/explosive/grenade/high_explosive/training,
 /obj/item/explosive/grenade/high_explosive/training,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Firing_Range_1";
 	name = "range shutters";
 	pixel_x = 9;
-	pixel_y = 10;
-	icon_state = "doorctrlvert"
+	pixel_y = 10
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/living/cryo_cells)
@@ -27223,20 +27207,18 @@
 "hkH" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/recharger,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "courtyard_cells";
 	name = "\improper Courtyard Lockdown Shutters";
 	pixel_x = 16;
-	req_access_txt = "3";
-	icon_state = "doorctrlvert"
+	req_access_txt = "3"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Brig Lockdown Shutters";
 	name = "Brig Lockdown Shutters";
 	pixel_x = 16;
 	pixel_y = 8;
-	req_access_txt = "3";
-	icon_state = "doorctrlvert"
+	req_access_txt = "3"
 	},
 /turf/open/floor/almayer/red,
 /area/almayer/shipboard/brig/processing)
@@ -29544,11 +29526,10 @@
 /area/almayer/living/briefing)
 "ijQ" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "SEA Office Shutters";
 	name = "SEA Office Shutters";
-	pixel_y = 12;
-	icon_state = "doorctrlvert"
+	pixel_y = 12
 	},
 /obj/item/ashtray/plastic{
 	pixel_x = 8;
@@ -32700,12 +32681,11 @@
 /turf/closed/wall/almayer/reinforced,
 /area/almayer/command/telecomms)
 "jwi" = (
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "InnerShutter";
 	name = "Inner Shutter";
 	pixel_x = 5;
-	pixel_y = 10;
-	icon_state = "doorctrlvert"
+	pixel_y = 10
 	},
 /obj/item/toy/deck{
 	pixel_x = -9
@@ -33408,20 +33388,18 @@
 /area/almayer/squads/bravo)
 "jOk" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/line_nexter_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "line2";
 	pixel_x = -4;
 	pixel_y = 10;
-	req_one_access_txt = "1;21";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "1;21"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "ROlobby2";
 	name = "RO Line 2 Shutters";
 	pixel_x = 5;
 	pixel_y = 10;
-	req_one_access_txt = "1;21";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "1;21"
 	},
 /obj/item/paper_bin/uscm{
 	pixel_y = -4
@@ -33639,13 +33617,12 @@
 	dir = 8;
 	pixel_y = -3
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "CMO Shutters";
 	name = "Office Shutters";
 	req_access_txt = "5";
 	pixel_x = -11;
-	pixel_y = -6;
-	icon_state = "doorctrlvert"
+	pixel_y = -6
 	},
 /turf/open/floor/almayer/sterile_green_side,
 /area/almayer/medical/upper_medical)
@@ -33972,13 +33949,12 @@
 /turf/open/floor/almayer/research/containment/corner/north,
 /area/almayer/medical/containment/cell)
 "jZu" = (
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "CIC_Conference";
 	name = "Conference Lockdown";
 	pixel_x = -7;
 	pixel_y = 9;
-	req_access_txt = "1";
-	icon_state = "doorctrlvert"
+	req_access_txt = "1"
 	},
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 8
@@ -36991,12 +36967,11 @@
 "lkf" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/light,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Hangar Lockdown";
 	name = "Hangar Lockdown";
 	pixel_y = -2;
-	req_one_access_txt = "3;22;19";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "3;22;19"
 	},
 /turf/open/floor/almayer/red/southeast,
 /area/almayer/living/offices/flight)
@@ -41632,13 +41607,12 @@
 	unacidable = 1;
 	unslashable = 1
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "courtyard window";
 	name = "Privacy Shutters";
 	pixel_x = -8;
 	pixel_y = -6;
-	req_access_txt = "3";
-	icon_state = "doorctrlvert"
+	req_access_txt = "3"
 	},
 /obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
@@ -43195,13 +43169,12 @@
 	pixel_x = 7;
 	pixel_y = 7
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "containmentlockdown_S";
 	name = "Containment Lockdown";
 	pixel_x = -5;
 	pixel_y = -4;
-	req_one_access_txt = "19;28";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "19;28"
 	},
 /obj/structure/pipes/standard/simple/hidden/supply/no_boom,
 /turf/open/floor/almayer/sterile_green,
@@ -49181,14 +49154,13 @@
 /area/almayer/maint/hull/upper/u_a_s)
 "qmy" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	dir = 1;
 	id = "researchlockdownext_windoor";
 	name = "Windoor Shutters";
 	pixel_x = -7;
 	pixel_y = 9;
-	req_access_txt = "28";
-	icon_state = "doorctrlvert"
+	req_access_txt = "28"
 	},
 /obj/structure/machinery/computer/med_data/laptop{
 	dir = 1;
@@ -49202,14 +49174,13 @@
 	pixel_x = 15;
 	pixel_y = -32
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	dir = 1;
 	id = "researchlockdownext_se_2";
 	name = "Window Shutters";
 	pixel_x = -7;
 	pixel_y = 4;
-	req_access_txt = "28";
-	icon_state = "doorctrlvert"
+	req_access_txt = "28"
 	},
 /turf/open/floor/almayer/sterile_green_corner/west,
 /area/almayer/medical/medical_science)
@@ -50917,13 +50888,12 @@
 /area/almayer/hallways/lower/starboard_aft_hallway)
 "qUZ" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "MTline";
 	name = "Next button";
 	pixel_x = 5;
 	pixel_y = 10;
-	req_one_access_txt = "2;7";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "2;7"
 	},
 /obj/item/paper_bin/uscm,
 /obj/item/tool/pen,
@@ -51147,13 +51117,12 @@
 	dir = 8;
 	pixel_y = 6
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "perma_lockdown_1";
 	name = "\improper Perma Cells Lockdown";
 	pixel_x = -8;
 	pixel_y = -4;
-	req_access_txt = "3";
-	icon_state = "doorctrlvert"
+	req_access_txt = "3"
 	},
 /turf/open/floor/almayer/red/east,
 /area/almayer/shipboard/brig/perma)
@@ -53080,13 +53049,12 @@
 	pixel_x = -13;
 	pixel_y = 5
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "CO-Office";
 	name = "Door Control";
 	normaldoorcontrol = 1;
 	pixel_y = 7;
-	req_access_txt = "31";
-	icon_state = "doorctrlvert"
+	req_access_txt = "31"
 	},
 /obj/item/ashtray/bronze{
 	pixel_x = 12;
@@ -59220,13 +59188,12 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "W_Containment Cell 1";
 	name = "Containment Lockdown";
 	pixel_x = -7;
 	pixel_y = 1;
-	req_one_access_txt = "19;28";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "19;28"
 	},
 /obj/structure/machinery/door_display/research_cell{
 	id = "Containment Cell 1";
@@ -62787,33 +62754,30 @@
 /area/almayer/living/starboard_emb)
 "vHt" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "CIC Lockdown";
 	name = "CIC Lockdown";
 	pixel_x = -7;
 	pixel_y = 9;
-	req_access_txt = "1";
-	icon_state = "doorctrlvert"
+	req_access_txt = "1"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Hangar Lockdown";
 	name = "Hangar Lockdown";
 	pixel_x = -7;
 	pixel_y = 2;
-	req_access_txt = "1";
-	icon_state = "doorctrlvert"
+	req_access_txt = "1"
 	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4;
 	icon_state = "exposed01-supply"
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "bot_armory";
 	name = "Armory Lockdown";
 	pixel_x = -7;
 	pixel_y = -5;
-	req_one_access_txt = "1;4";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "1;4"
 	},
 /obj/structure/transmitter/rotary/no_dnd{
 	name = "Combat Information Center Telephone";
@@ -64457,13 +64421,12 @@
 /area/almayer/hallways/hangar)
 "wlg" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Interrogation Shutters";
 	name = "\improper Shutters";
 	pixel_x = -6;
 	pixel_y = -6;
-	req_access_txt = "3";
-	icon_state = "doorctrlvert"
+	req_access_txt = "3"
 	},
 /obj/item/device/taperecorder{
 	pixel_x = 3;
@@ -68287,22 +68250,20 @@
 /turf/open/floor/almayer/uscm/directional/southeast,
 /area/almayer/command/cic)
 "xMG" = (
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "OuterShutter";
 	name = "Outer Shutter";
 	pixel_x = 5;
 	pixel_y = -2;
-	req_one_access_txt = "1;3";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "1;3"
 	},
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "OfficeSafeRoom";
 	name = "Office Safe Room";
 	pixel_x = 5;
 	pixel_y = 5;
-	req_one_access_txt = "1;3";
-	icon_state = "doorctrlvert"
+	req_one_access_txt = "1;3"
 	},
 /turf/open/floor/almayer/plate,
 /area/almayer/shipboard/panic)

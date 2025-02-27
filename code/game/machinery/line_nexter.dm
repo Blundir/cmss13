@@ -44,7 +44,7 @@
 /obj/structure/machinery/line_nexter_control
 	name = "Next Button"
 	icon = 'icons/obj/structures/props/stationobjs.dmi'
-	icon_state = "doorctrl0"
+	icon_state = "doorctrlvert"
 	var/id
 
 /obj/structure/machinery/line_nexter_control/verb/push_button()
@@ -59,11 +59,11 @@
 	if(istype(user,/mob/living/carbon/xenomorph))
 		return
 
-	icon_state = "doorctrl1"
+	icon_state = initial(icon_state) + "1"
 	add_fingerprint(user)
 
 	for(var/obj/structure/machinery/line_nexter/L in GLOB.machines)
 		if(id == L.id)
 			L.next()
 
-	addtimer(VARSET_CALLBACK(src, icon_state, "doorctrl0"), 1.5 SECONDS)
+	addtimer(VARSET_CALLBACK(src, icon_state, initial(icon_state) + "0"), 1.5 SECONDS)

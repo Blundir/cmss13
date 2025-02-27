@@ -295,7 +295,8 @@
 /obj/structure/machinery/door_control{
 	id = "Spaceport";
 	name = "Storm Shutters";
-	pixel_x = 32
+	pixel_x = 22;
+	dir = 8
 	},
 /obj/item/tool/pen,
 /turf/open/floor/dark,
@@ -1027,6 +1028,13 @@
 /obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/plating,
 /area/bigredv2/caves_north)
+"adY" = (
+/obj/structure/flora/grass/desert/lightgrass_10,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/mars,
+/area/bigred/ground/garage_workshop)
 "adZ" = (
 /turf/closed/wall/solaris/reinforced,
 /area/bigredv2/caves/lambda/xenobiology)
@@ -1458,7 +1466,8 @@
 /obj/structure/machinery/door_control{
 	id = "tcomms";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/floor/dark,
 /area/bigredv2/outside/telecomm)
@@ -1517,7 +1526,8 @@
 /obj/structure/machinery/door_control{
 	id = "Marshal Offices";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/bigredv2/outside/marshal_office)
@@ -1971,7 +1981,8 @@
 /obj/structure/machinery/door_control{
 	id = "Marshal Offices";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/floor/redcorner,
 /area/bigredv2/outside/marshal_office)
@@ -3070,7 +3081,8 @@
 /obj/structure/machinery/door_control{
 	id = "Office Complex 2";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/bigredv2/outside/marshal_office)
@@ -3296,7 +3308,9 @@
 /obj/structure/machinery/door_control{
 	id = "Marshal Offices";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4;
+	pixel_y = 6
 	},
 /turf/open/floor/redfull/northwest,
 /area/bigredv2/outside/marshal_office)
@@ -4313,9 +4327,10 @@
 	id = "safe_room";
 	name = "Door Bolt Control";
 	normaldoorcontrol = 1;
-	pixel_y = -28;
+	pixel_y = -15;
 	req_access_txt = "106";
-	specialfunctions = 4
+	specialfunctions = 4;
+	dir = 1
 	},
 /turf/open/floor/elevatorshaft/north,
 /area/bigredv2/caves/lambda/breakroom)
@@ -4675,7 +4690,7 @@
 /obj/structure/machinery/door_control{
 	id = "sci_br";
 	name = "Observation Shutters";
-	pixel_y = 28
+	pixel_y = 32
 	},
 /turf/open/floor/darkpurplecorners2,
 /area/bigredv2/caves/lambda/breakroom)
@@ -4698,7 +4713,7 @@
 /obj/structure/machinery/door_control{
 	id = "sci_br";
 	name = "Observation Shutters";
-	pixel_y = 28
+	pixel_y = 32
 	},
 /turf/open/floor/darkpurplecorners2,
 /area/bigredv2/caves/lambda/breakroom)
@@ -5145,7 +5160,8 @@
 /obj/structure/machinery/door_control{
 	id = "Medical";
 	name = "Storm Shutters";
-	pixel_y = -32
+	pixel_y = -15;
+	dir = 1
 	},
 /turf/open/floor/whitegreen,
 /area/bigredv2/outside/medical)
@@ -6403,7 +6419,8 @@
 /obj/structure/machinery/door_control{
 	id = "Greenhouse";
 	name = "Storm Shutters";
-	pixel_x = 32
+	pixel_x = 22;
+	dir = 8
 	},
 /turf/open/floor,
 /area/bigredv2/outside/hydroponics)
@@ -6529,7 +6546,8 @@
 /obj/structure/machinery/door_control{
 	id = "Dormitories";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/floor,
 /area/bigredv2/outside/dorms)
@@ -6913,7 +6931,8 @@
 /obj/structure/machinery/door_control{
 	id = "Dormitories";
 	name = "Storm Shutters";
-	pixel_y = -32
+	pixel_y = -15;
+	dir = 1
 	},
 /obj/structure/machinery/camera/autoname{
 	dir = 1
@@ -7874,7 +7893,8 @@
 /obj/structure/machinery/door_control{
 	id = "Kitchen Greenhouse";
 	name = "Storm Shutters";
-	pixel_x = 32
+	pixel_x = 22;
+	dir = 8
 	},
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 9
@@ -8281,9 +8301,10 @@
 	layer = 4;
 	name = "Qurantine Lockdown";
 	normaldoorcontrol = 1;
-	pixel_x = -25;
+	pixel_x = -22;
 	req_access_txt = "7";
-	specialfunctions = 4
+	specialfunctions = 4;
+	dir = 4
 	},
 /turf/open/floor/whitegreen/southwest,
 /area/bigredv2/caves/lambda/virology)
@@ -8353,9 +8374,7 @@
 /obj/structure/machinery/door_control{
 	id = "Bar Complex";
 	name = "Storm Shutters";
-	pixel_x = 32
-	},
-/obj/structure/machinery/camera/autoname{
+	pixel_x = 22;
 	dir = 8
 	},
 /turf/open/floor/wood,
@@ -9522,7 +9541,8 @@
 /obj/structure/machinery/door_control{
 	id = "Operations";
 	name = "Storm Shutters";
-	pixel_y = -32
+	pixel_y = -15;
+	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/darkred2,
@@ -9578,7 +9598,8 @@
 /obj/structure/machinery/door_control{
 	id = "Kitchen";
 	name = "Storm Shutters";
-	pixel_x = 32
+	pixel_x = 22;
+	dir = 8
 	},
 /turf/open/floor/yellowfull,
 /area/bigredv2/outside/hydroponics)
@@ -10318,7 +10339,8 @@
 /obj/structure/machinery/door_control{
 	id = "General Store";
 	name = "Storm Shutters";
-	pixel_x = 32
+	pixel_x = 22;
+	dir = 8
 	},
 /turf/open/floor/yellowfull,
 /area/bigredv2/outside/general_store)
@@ -10391,7 +10413,8 @@
 /obj/structure/machinery/door_control{
 	id = "viro";
 	name = "Virology Lockdown";
-	pixel_x = -25
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/floor/white,
 /area/bigredv2/outside/virology)
@@ -11299,7 +11322,8 @@
 /obj/structure/machinery/door_control{
 	id = "Operations";
 	name = "Storm Shutters";
-	pixel_y = -32
+	pixel_y = -15;
+	dir = 1
 	},
 /obj/effect/landmark/good_item,
 /turf/open/floor/darkred2,
@@ -11896,7 +11920,8 @@
 /obj/structure/machinery/door_control{
 	id = "Cargonia";
 	name = "Storm Shutters";
-	pixel_x = 32
+	pixel_x = 22;
+	dir = 8
 	},
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
@@ -11927,7 +11952,7 @@
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
 "bcC" = (
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Cargonia";
 	name = "Storm Shutters";
 	pixel_x = 32
@@ -12172,7 +12197,8 @@
 /obj/structure/machinery/door_control{
 	id = "Chapel";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/floor/cult,
 /area/bigredv2/outside/chapel)
@@ -12831,7 +12857,8 @@
 /obj/structure/machinery/door_control{
 	id = "Office Complex 1";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/floor/redcorner/west,
 /area/bigredv2/outside/office_complex)
@@ -13027,7 +13054,9 @@
 /obj/structure/machinery/door_control{
 	id = "Marshal Offices";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4;
+	pixel_y = 15
 	},
 /turf/open/floor/dark,
 /area/bigredv2/outside/marshal_office)
@@ -13815,7 +13844,8 @@
 /obj/structure/machinery/door_control{
 	id = "Filtration Plant";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/floor/darkyellow2/west,
 /area/bigredv2/outside/filtration_plant)
@@ -14512,7 +14542,8 @@
 /obj/structure/machinery/door_control{
 	id = "Engineering";
 	name = "Storm Shutters";
-	pixel_y = -32
+	pixel_y = -15;
+	dir = 1
 	},
 /turf/open/floor/darkyellow2,
 /area/bigredv2/outside/engineering)
@@ -14939,7 +14970,8 @@
 /obj/structure/machinery/door_control{
 	id = "Engineering";
 	name = "Storm Shutters";
-	pixel_y = -32
+	pixel_y = -15;
+	dir = 1
 	},
 /turf/open/floor/darkyellow2/southeast,
 /area/bigredv2/outside/engineering)
@@ -20331,8 +20363,9 @@
 /obj/structure/machinery/door_control{
 	id = "filtration";
 	name = "Filtration Lockdown";
-	pixel_x = 30;
-	throw_range = 15
+	pixel_x = 22;
+	throw_range = 15;
+	dir = 8
 	},
 /turf/open/floor/darkyellow2/east,
 /area/bigredv2/outside/filtration_plant)
@@ -23279,7 +23312,8 @@
 /obj/structure/machinery/door_control{
 	id = "Cargonia";
 	name = "Storm Shutters";
-	pixel_x = 32
+	pixel_x = 22;
+	dir = 8
 	},
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
@@ -24706,8 +24740,9 @@
 /obj/structure/machinery/door_control{
 	id = "garage";
 	name = "Garage Shutters";
-	pixel_x = 26;
-	range = 500
+	pixel_x = 22;
+	range = 500;
+	dir = 8
 	},
 /turf/open/floor/wood,
 /area/bigredv2/outside/marshal_office)
@@ -24994,7 +25029,7 @@
 /obj/structure/window{
 	dir = 8
 	},
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "Library";
 	name = "Storm Shutters"
 	},
@@ -26430,7 +26465,8 @@
 /obj/structure/machinery/door_control{
 	id = "Dormitories";
 	name = "Storm Shutters";
-	pixel_y = -32
+	pixel_y = -15;
+	dir = 1
 	},
 /turf/open/floor,
 /area/bigredv2/outside/dorms)
@@ -26505,6 +26541,9 @@
 "lxz" = (
 /obj/structure/surface/table/woodentable,
 /obj/item/reagent_container/food/drinks/bottle/cognac,
+/obj/structure/machinery/camera/autoname{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/bigredv2/outside/bar)
 "lxN" = (
@@ -26564,7 +26603,7 @@
 /area/bigredv2/outside/filtration_cave_cas)
 "lAR" = (
 /obj/structure/surface/table/reinforced,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "lambda-interior";
 	name = "Lambda Checkpoint Interior";
 	pixel_x = null
@@ -27088,13 +27127,11 @@
 /obj/structure/machinery/door_control{
 	id = "workshop_br_g";
 	name = "Workshop Garage Lockdown";
-	pixel_x = -28
-	},
-/obj/structure/machinery/light{
-	dir = 8
+	pixel_x = -22;
+	dir = 4
 	},
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached2,
-/area/bigred/ground/garage_workshop)
+/area/bigredv2/outside/nw)
 "mda" = (
 /turf/open/mars_cave/mars_cave_16,
 /area/bigredv2/caves_lambda)
@@ -27114,7 +27151,8 @@
 /obj/structure/machinery/door_control{
 	id = "Office Complex 1";
 	name = "Storm Shutters";
-	pixel_x = -32
+	pixel_x = -22;
+	dir = 4
 	},
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/blood/xeno,
@@ -28281,8 +28319,9 @@
 	desc = "A remote control-switch for opening the engines blast doors.";
 	id = "rad_door";
 	name = "Reactor Radiation Shielding control";
-	pixel_x = 30;
-	req_access_txt = "7"
+	pixel_x = 22;
+	req_access_txt = "7";
+	dir = 8
 	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -28698,7 +28737,8 @@
 /obj/structure/machinery/door_control{
 	id = "workshop_br_g";
 	name = "Workshop Garage Lockdown";
-	pixel_x = 28
+	pixel_x = 22;
+	dir = 8
 	},
 /turf/open/floor/asteroidwarning/northeast,
 /area/bigred/ground/garage_workshop)
@@ -29768,7 +29808,7 @@
 /area/bigredv2/outside/marshal_office)
 "oPM" = (
 /obj/structure/surface/table/reinforced,
-/obj/structure/machinery/door_control{
+/obj/structure/machinery/door_control/vertical{
 	id = "lambda-exterior";
 	name = "Lambda Checkpoint Exterior";
 	pixel_x = null
@@ -31656,7 +31696,8 @@
 /obj/structure/machinery/door_control{
 	id = "Medical";
 	name = "Storm Shutters";
-	pixel_y = -32
+	pixel_y = -15;
+	dir = 1
 	},
 /turf/open/floor/whitegreen,
 /area/bigredv2/outside/medical)
@@ -32882,7 +32923,7 @@
 	id = "safe_room";
 	name = "Door Bolt Control";
 	normaldoorcontrol = 1;
-	pixel_y = 28;
+	pixel_y = 32;
 	req_access_txt = "106";
 	specialfunctions = 4
 	},
@@ -36170,7 +36211,8 @@
 /obj/structure/machinery/door_control{
 	id = "lambda";
 	name = "Lambda Lockdown";
-	pixel_y = -25
+	pixel_y = -15;
+	dir = 1
 	},
 /turf/open/floor/whitepurple/southwest,
 /area/bigredv2/caves/lambda/xenobiology)
@@ -36453,8 +36495,9 @@
 /obj/structure/machinery/door_control{
 	id = "eta";
 	name = "Eta Lockdown";
-	pixel_x = 30;
-	throw_range = 15
+	pixel_x = 22;
+	throw_range = 15;
+	dir = 8
 	},
 /turf/open/floor/darkblue2/east,
 /area/bigredv2/caves/eta/research)
@@ -46439,7 +46482,7 @@ aao
 aao
 aeI
 aeI
-fWH
+adY
 mcO
 hby
 iFr
