@@ -550,7 +550,8 @@
 /obj/structure/machinery/door_control{
 	id = "Spaceport2";
 	name = "Storm Shutters";
-	pixel_x = 32
+	pixel_x = 22;
+	dir = 8
 	},
 /turf/open/floor/darkgreen2/east,
 /area/bigredv2/outside/space_port)

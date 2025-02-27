@@ -60,7 +60,7 @@
 /obj/structure/machinery/door_control{
 	id = "sci_br";
 	name = "Observation Shutters";
-	pixel_y = 28
+	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/blood/gibs/xeno,
 /turf/open/floor/darkpurplecorners2,
@@ -70,7 +70,7 @@
 /obj/structure/machinery/door_control{
 	id = "sci_br";
 	name = "Observation Shutters";
-	pixel_y = 28
+	pixel_y = 32
 	},
 /obj/effect/landmark/corpsespawner/pmc,
 /obj/effect/decal/cleanable/vomit,

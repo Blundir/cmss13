@@ -156,7 +156,8 @@
 /obj/structure/machinery/door_control{
 	id = "Engineering";
 	name = "Storm Shutters";
-	pixel_y = -32
+	pixel_y = -15;
+	dir = 1
 	},
 /turf/open/floor/darkyellow2,
 /area/bigredv2/outside/engineering)
@@ -461,8 +462,9 @@
 	desc = "A remote control-switch for opening the engines blast doors.";
 	id = "rad_door";
 	name = "Reactor Radiation Shielding control";
-	pixel_x = 30;
-	req_access_txt = "7"
+	pixel_x = 22;
+	req_access_txt = "7";
+	dir = 8
 	},
 /turf/open/floor/plating/panelscorched,
 /area/bigredv2/outside/telecomm/engi)

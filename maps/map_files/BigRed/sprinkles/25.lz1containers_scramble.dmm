@@ -61,7 +61,8 @@
 /obj/structure/machinery/door_control{
 	id = "Spaceport";
 	name = "Storm Shutters";
-	pixel_x = 32
+	pixel_x = 22;
+	dir = 8
 	},
 /obj/item/tool/pen,
 /turf/open/floor/dark,
