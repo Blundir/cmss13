@@ -1354,7 +1354,7 @@ GLOBAL_LIST_INIT(cm_vending_gear_corresponding_types_list, list(
 			overlays.Cut()
 			flick("[initial(icon_state)]_vend", src)
 			if(vend_sound)
-				playsound(loc, vend_sound, 25, 1, 2) //heard only near vendor
+				playsound(loc, vend_sound, 25, 1, 7)
 			sleep(vend_delay)
 
 		var/prod_type = itemspec[3]

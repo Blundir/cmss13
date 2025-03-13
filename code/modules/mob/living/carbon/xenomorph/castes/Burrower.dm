@@ -159,7 +159,7 @@
 				COMSIG_LIVING_FLAMER_FLAMED,
 		), PROC_REF(flamer_crossed_immune))
 	add_traits(list(TRAIT_ABILITY_BURROWED, TRAIT_UNDENSE, TRAIT_IMMOBILIZED), TRAIT_SOURCE_ABILITY("Burrow"))
-	playsound(src.loc, 'sound/effects/burrowing_b.ogg', 25)
+	playsound(src.loc, 'sound/effects/burrowing_b.ogg', 25, FALSE, 10)
 	update_icons()
 	addtimer(CALLBACK(src, PROC_REF(do_burrow_cooldown)), (caste ? caste.burrow_cooldown : 5 SECONDS))
 	burrow_timer = world.time + 90 // How long we can be burrowed
@@ -194,7 +194,7 @@
 	if(hauled)
 		hauled.forceMove(loc)
 
-	playsound(loc, 'sound/effects/burrowoff.ogg', 25)
+	playsound(loc, 'sound/effects/burrowoff.ogg', 25, FALSE, 10)
 	for(var/mob/living/carbon/mob in loc)
 		if(!can_not_harm(mob))
 			mob.apply_effect(2, WEAKEN)
